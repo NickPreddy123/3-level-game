@@ -26,12 +26,51 @@ public class Mover : MonoBehaviour
         
        
     }
+    void StopObject()
+    {
+        transform.Rotate(new Vector3(0f, 0f, 0f));
+
+    }
+
     private void OnTriggerEnter(Collider other)
+    {
+      
+        if (other.gameObject.tag == "Player")
+        {
+             
+            Debug.Log("Object Entered the Trigger");
+          
+        }
+       
+    }
+    private void OnTriggerStay(Collider other)
     {
         if (other.gameObject.tag == "Player")
         {
             MoveObject();
+            Debug.Log("Object is in the Trigger");
+            
         }
+
+       
     }
+    private void OnTriggerExit(Collider other)
+    {
+        if (other.gameObject.tag == "Player")
+        {
+
+            Debug.Log("Object has left the trigger");
+
+        }
+        
+
+    }
+    
+
+
+
+
 
 }
+
+
