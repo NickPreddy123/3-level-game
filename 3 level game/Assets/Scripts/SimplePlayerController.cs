@@ -53,7 +53,7 @@ public class SimplePlayerController : MonoBehaviour
 
     void ProcessJumping()
     {
-        if(Input.GetButtonDown("Jump") && controller.isGrounded)
+        if(Input.GetKey("space") && controller.isGrounded)
         {
             velocity.y = Mathf.Sqrt(jumpHeight * -2f * gravity);
         }
