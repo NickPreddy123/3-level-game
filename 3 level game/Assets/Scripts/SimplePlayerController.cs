@@ -2,8 +2,13 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
 public class SimplePlayerController : MonoBehaviour
 {
+    private void Start()
+    {
+        Cursor.visible = false;
+    }
     // Variables for movement
     public float mouseSensitivity = 100f;
     public float speed = 12f;
@@ -24,6 +29,7 @@ public class SimplePlayerController : MonoBehaviour
         PlayerMover();
         ApplyGravity();
         ProcessJumping();
+       
     }
 
     void PlayerMover()

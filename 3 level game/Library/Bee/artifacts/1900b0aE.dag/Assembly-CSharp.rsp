@@ -362,13 +362,17 @@
 "Assets/Scripts/ButtonActive.cs"
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/EndGame.cs"
+"Assets/Scripts/GoToMainMenu.cs"
 "Assets/Scripts/LadderScript1.cs"
 "Assets/Scripts/MainMenu.cs"
 "Assets/Scripts/Mover.cs"
 "Assets/Scripts/ProximityDetector1.cs"
 "Assets/Scripts/RestartGame.cs"
+"Assets/Scripts/RestartLevel.cs"
+"Assets/Scripts/SettingsButton.cs"
 "Assets/Scripts/SimplePlayerController.cs"
 "Assets/Scripts/TeleportPlayer.cs"
+"Assets/Scripts/VolumeControl.cs"
 -langversion:9.0
 
 /deterministic
