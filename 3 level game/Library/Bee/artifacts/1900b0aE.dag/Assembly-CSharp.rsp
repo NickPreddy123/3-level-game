@@ -360,7 +360,6 @@
 "Assets/Scripts/AdvancedPlayerController.cs"
 "Assets/Scripts/Barrelcollision.cs"
 "Assets/Scripts/Barrels.cs"
-"Assets/Scripts/Brightness.cs"
 "Assets/Scripts/ButtonActive.cs"
 "Assets/Scripts/DoorScript.cs"
 "Assets/Scripts/EndGame.cs"

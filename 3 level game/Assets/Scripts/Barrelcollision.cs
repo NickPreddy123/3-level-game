@@ -10,6 +10,7 @@ public class Barrelcollision : MonoBehaviour
     public GameObject Player;
     public GameObject DeathCam;
     public GameObject Deathtext;
+    
 
     private void Start()
     {
@@ -36,6 +37,7 @@ public class Barrelcollision : MonoBehaviour
             DeathCam.SetActive(true);
             Button2.SetActive(true);
             Deathtext.SetActive(true);
+            
             Cursor.visible = true;
 
         }

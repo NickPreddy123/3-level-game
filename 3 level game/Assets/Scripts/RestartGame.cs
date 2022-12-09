@@ -5,7 +5,7 @@ using UnityEngine.SceneManagement;
 
 public class RestartGame : MonoBehaviour
 {
-
+    public GameObject Brightness;
     public void ResetGame()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
@@ -14,6 +14,7 @@ public class RestartGame : MonoBehaviour
     public void MainMenu()
     {
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        Brightness.SetActive(true);
     }
     
 }
