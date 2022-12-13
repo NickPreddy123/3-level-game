@@ -15,6 +15,7 @@ public class EndGame : MonoBehaviour
     void Disappear()
     {
         Text.SetActive(false);
+        
     }
 
 
@@ -25,6 +26,8 @@ public class EndGame : MonoBehaviour
     {
         Instantiate(Text, transform.position, transform.rotation);
         Text.SetActive(true);
+        Cursor.visible = true;
+        Time.timeScale = 0f;
     }
     private void OnTriggerEnter(Collider other)
     {
