@@ -16,5 +16,12 @@ public class RestartGame : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
         Brightness.SetActive(true);
     }
-    
+    public void MainMenuLvl2()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3);
+    }
+    public void MainMenuLvl3()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 4);
+    }
 }
